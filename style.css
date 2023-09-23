@@ -4,24 +4,23 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
+  font-family: "Roboto", sans-serif;
+}
+body {
   width: 100%;
   height: 100%;
-  font-family: "Roboto", sans-serif;
 }
 
 .container {
-  grid-template-columns: 1fr 3fr 1fr;
-  grid-template-rows: 1fr 3fr 1fr;
-  display: grid;
+  
+
+  
 }
 
 .board {
-  grid-area: 2/2/3/3;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  display: grid;
-}
 
-.sq {
-  border: solid 0.2rem black;
+}
+input[type=text]{
+  
 }
