@@ -22,6 +22,9 @@ body {
   gap: 2rem;
 }
 
+h1{
+  text-align: center;
+}
 .control {
   display: flex;
   gap: 1rem;

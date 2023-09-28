@@ -78,6 +78,7 @@ const Game = (() => {
   
 
   const start = () => {
+  
     document.getElementById("mesg").firstElementChild.textContent= "";
     players = [
       createplayer(document.querySelector("#p1").value, "X"),
