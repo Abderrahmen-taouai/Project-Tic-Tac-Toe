@@ -68,6 +68,7 @@ h1{
 input[type=text] {
   font-size: medium;
   height: 2rem;
+  text-align: center;
  
 }
 
@@ -96,3 +97,13 @@ input[type=text] {
 .sq:hover{
   background-color: rgb(84, 202, 113);
 }
+
+#mesg {
+  background-color: rgb(84, 202, 113);
+  font-size: large;
+  width: 35vw;
+  
+  text-align: center;
+  padding: 1rem;
+}
+
