@@ -1,32 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Tic Tac Toe</title>
-  </head>
-  <body>
-    <div class="container">
-      
-      <div class="board"></div>
-      <div class="control">
-        <input type="text" id="p1" placeholder="palyer 1 name" required>
-        
-        
-        <input type="text" id="p2" placeholder="palyer 2 name" required>
-        
-        
-        <button class="state" id="btnstart">Start</button>
-        <button class="state" id="btnrest">Restart</button>
-      </div>
-      <div class="message" id="mesg" >
-        Who win
-      </div>
-       
-                
-      
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+    <title>TIC TAC TOE</title>
+</head>
+<div class="container">
+    <div class="score">score</div>
+    <div class="grid" data-id="ID" id="id"></div>
+    <div class="players">
+        <div class="x"> 0</div>
+        <div class="o"> 0</div>
     </div>
-  </body>
-  <script src="main.js"></script>
+</div>
+<body>
+    
+</body>
 </html>
